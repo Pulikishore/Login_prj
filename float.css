@@ -7,7 +7,7 @@
 }
 
 .login{
-    width: 720px;
+    width: 580px;
     height: 100vh;
     position: absolute;
    flex-direction: row;
@@ -22,7 +22,7 @@
 }
 
 .text{
-    margin: 10% 10% 15% 25%;
+    margin: 10% 10% 15% 18%;
     
 }
 
@@ -54,7 +54,7 @@
     border-color:white;
     border-top: white;
     border-left: white;
-    padding:  20px 44% 20px 10px;
+    padding:  10px 44% 10px 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 4px;
 
@@ -66,7 +66,7 @@
     color: gray;
     accent-color: #d9600a;
     margin-top: 15px;
-    margin-right: 10px;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     
@@ -82,14 +82,14 @@
 
 .login .reg a{
     color: gray;
-    margin-left: 38%;
+    margin-left: 160px;
 }
 
 button{
    border-style: none;
-    font-size: 1.5em;
-    padding: 15px 38%;
-    margin-top:40px;
+    font-size: 1em;
+    padding: 15px 45%;
+    margin-top:20px;
     background-color: #fb771a;
     border-color: #fb771a;
     color: aliceblue;
@@ -101,8 +101,8 @@ button:hover{
 }
 
 .pic{
-    position: relative;
     width: 0%;
+    position: relative;
     float: right;
-    
 }
+

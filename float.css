@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+ 
+}
+
+.login{
+    width: 720px;
+    height: 100vh;
+    position: absolute;
+   flex-direction: row;
+  
+    
+   background-color:whitesmoke; 
+   display: flex;
+  
+
+   
+
+}
+
+.text{
+    margin: 10% 10% 15% 25%;
+    
+}
+
+.text label{
+    display: block;
+    padding: 20px 20px 20px 0;
+    font-size: 1.3em ;
+    font-weight: normal;
+    
+}
+
+.text strong{
+    font-weight: bolder;
+}
+
+.text p{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%; 
+    margin-right: 0%;
+    font-size: medium;
+  
+}
+
+
+
+.text input{
+    font-size: 18.5px;
+    border-color:white;
+    border-top: white;
+    border-left: white;
+    padding:  20px 44% 20px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 4px;
+
+}
+
+
+
+ .login .reg{
+    color: gray;
+    accent-color: #d9600a;
+    margin-top: 15px;
+    margin-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    
+   
+}
+
+.login .reg input{
+    transform: scale(1.5);
+    margin-right: 5px;
+    
+}
+
+.login .reg a{
+    color: gray;
+    margin-left: 38%;
+}
+
+button{
+   border-style: none;
+    font-size: 1.5em;
+    padding: 15px 38%;
+    margin-top:40px;
+    background-color: #fb771a;
+    border-color: #fb771a;
+    color: aliceblue;
+    border-radius: 3px;
+    
+}
+button:hover{
+    background-color: #ed690a;
+}
+
+.pic{
+    position: relative;
+    width: 0%;
+    float: right;
+    
+}

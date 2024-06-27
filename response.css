@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.text {
+    padding: 20px;
+    flex: 1;
+}
+
+.text label {
+    display: block;
+    margin: 20px 0 10px;
+    font-size: 1.1em;
+}
+
+.text strong {
+    font-weight: bolder;
+}
+
+.text p {
+    color: gray;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.text input {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.reg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+
+.reg input {
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+
+.reg a {
+    color: gray;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #fb771a;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ed690a;
+}
+
+.pic {
+    display: none;
+    flex: 1;
+    /* overflow: hidden; */
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .login {
+        flex-direction: row;
+    }
+
+    .pic {
+        display: block;
+    }
+
+    .text {
+        width: 50%;
+    }
+
+    .pic {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .login {
+        width: 80%;
+    }
+
+    .text {
+        padding: 40px;
+    }
+
+    .text label {
+        font-size: 1.3em;
+    }
+
+    .text input {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1.1em;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .text {
+        padding: 10px;
+    }
+
+    .text label {
+        font-size: 1em;
+    }
+
+    .text input {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .reg {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .reg a {
+        margin-top: 10px;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login {
+        width: 95%;
+    }
+
+    .text label {
+        margin: 15px 0 8px;
+        font-size: 0.9em;
+    }
+
+    .text input {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 320px) {
+    .text label {
+        margin: 10px 0 5px;
+        font-size: 0.8em;
+    }
+
+    .text input {
+        padding: 6px;
+        font-size: 0.8em;
+    }
+
+    .reg {
+        font-size: 0.8em;
+    }
+
+    .reg a {
+        font-size: 0.8em;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+}
